@@ -11,5 +11,8 @@ for version `1.0.0`
 - Use Api `RegionHelper.GetCurrentRegion()` to get the current region.
 - Example usage in a script:
 ```csharp
-    Debug.Log($"region: {RegionHelper.GetCurrentRegion()}");
+    private void Start()
+    {
+        Debug.Log($"region: {RegionHelper.GetCurrentRegion()}");
+    }
 ```
